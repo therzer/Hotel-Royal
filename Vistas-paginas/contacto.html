@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/estilo-contacto/contacto-principal.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <!--Menu-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary nav-menu">
+            <div class="container-fluid">
+                <a class="logo" href="#"><img src="../IMG/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-menu__items" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Habitaciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reserva</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Fondo top-->
+    <div class="fondo-top">
+        <h2 class="contacto-h2">Contacto</h2>
+    </div>
+
+    <!--Datos de contacto-->
+    <article class="inf__contacto">
+		<div class="dato__contacto">
+			<h2><n>Información de contacto</n></h2>
+			<hr>
+				<p><i class="las la-map-marker"></i>C. la Paz 439, Cochabamba, Bolivia</p>
+				<p><i class="las la-phone"></i></i>+59-178400599</p>
+				<p><i class="lar la-envelope"></i>Correoelectronico@gmai.com</p>
+			
+		</div>
+		<div class="ubicacion__mapa">
+            <iframe class="mapa-ubi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9056.021040673642!2d-66.15717342839329!3d-17.383556021290307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93e3740f177396c3%3A0x4641e88b3a76b96c!2sHotel%20Luxor!5e0!3m2!1ses!2sar!4v1680130222706!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</article>
+
+    <!--form contacto-->
+    <section class="enviar__correo">
+		<div class="contenedor">
+            <h2 class="titulo-correo">Contactanos</h2>
+            <h3 class="subtitulo-correo">Lo apreciariamos mucho</h3>
+            <div class="correo__env">
+                <form action="" method="POST">
+                    <input type="text"  id="" placeholder="Nombre" name="name">
+                    <input type="email"  id="" placeholder="Email" name="email">
+                    <textarea  id="" cols="30" rows="10" placeholder="Ingrese su mensaje..." name="message"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+	</section>
+
+    <!--Footer-->
+    <footer class="pie_pagina">
+		<div class="grupo_1">
+			<div class="box">
+				<h2>Contacto</h2>
+
+				<h3><n>Dirección</n></h3>
+        		<h4>C. la Paz 439, Cochabamba, Bolivia</h4>
+
+        		<h3><n>Teléfono</n></h3>
+        		<h4>+59-178400599</h4>
+
+        		<h3><n>Email</n></h3>
+        		<h4>Correoelectronico@gmai.com</h4>
+			</div>
+			<div class="red_social">
+				<h2>Red Social</h2>
+				<a><i class="lab la-facebook-f"></i></a>
+                <a><i class="lab la-instagram"></i></a>
+			</div>
+		</div>
+		<div class="grupo_2">
+			<small>&copy; 2023<b> Nombre cliente</b>-Todos los Derechos Recervados</small>
+		</div>
+	</footer>
+
+</body>
+</html>

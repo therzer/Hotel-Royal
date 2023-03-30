@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cormorant', serif;
+}
+body {
+    background-image: url("../../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.fondo-top{
+    position: relative;
+    top: 0;
+}
+
+.fondo-top__img{
+    background-image: url("../../IMG/hotel-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/*Nom Hotel*/
+.nom-hotel{
+    position: relative;
+    top: 300px;
+    width: 500px;
+    font-size: 90px;
+    color: #fffffe;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*habitaciones*/
+.desc-hotel{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: #212529db;
+}
+
+.campo-hotel{
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #cf9b0e;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.h2-nom__hotel{
+    color: #f5f5f5;
+    font-size: 33px;
+    text-shadow: 1px 1px 2px rgb(66, 65, 65);
+}
+
+.detalle-historia{
+    height: 500px;
+    width: 900px;
+    left: 300px;
+    background-color: #6c5413;
+}
+
+.imagenes{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+
+.img-1{
+    position: absolute;
+    margin-top: 50px;
+    left: 10%;
+    width: 400px;
+    height: 500px;
+    background-image: url("../../IMG/interior.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+.img-2{
+    position: absolute;
+    margin-top: 150px;
+    left: 25%;
+    width: 400px;
+    height: 500px;
+    background-image: url("../../IMG/pisina.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.descripcion-hotel{
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    height: 490px;
+    right: 10%;
+    background-color: #212529;
+    border-radius: 10px;
+}
+
+.titulo{
+    background-color: #cf9b0e;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.titulo h2{
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.descripcion-hotel p{
+    font-size: 25px;
+    padding: 20px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.btn_ver-mas{
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    background-color: #cf9b0e;
+    border-radius: 5px
+}
+
+.btn_ver-mas .ver-mas{
+    text-decoration: none;
+    font-size: 25px;
+    color: #f5f5f5;
+}
+
+.btn-scroll-top{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: #aa7f0a;
+    color: #fffffe;
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: 1px solid #fffffe;
+    cursor: pointer;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.btn_scroll_top_on{
+    transform: scale(1);
+}
+
+@media (max-width: 700px){
+    .nom-hotel{
+        font-size: 60px;
+    }
+    .text-presentacion{
+        font-size: 25px;
+        width: 400px;
+    }
+    .btn_reserva{
+        left: 100px;
+        width: 200px;
+    }
+    .btn_reserva .reserva{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    .nom-hotel{
+        top: 25%;
+        font-size: 50px;
+        left: 25px;
+    }
+    .text-presentacion{
+        top:45%;
+        font-size: 25px;
+        width: 290px;
+        left: 25px;
+        right: 25px;
+    }
+    .btn_reserva{
+        top: 80%;
+        left: 30px;
+        width: 200px;
+        height: 50px;
+    }
+    .btn_reserva .reserva{
+        font-size: 25px;
+    }
+}
